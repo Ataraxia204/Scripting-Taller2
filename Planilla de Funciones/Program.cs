@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 //Fuincion #1
 int AddNumbers(int num1, int num2)
@@ -84,3 +85,141 @@ double GetAverage(int[] numbers)
     }
     return sum / numbers.Length;
 }
+
+
+//Fuincion #13
+string GenerateRandomPassword(int passwordLength)
+{
+    const string allowedChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+={}[]|;':\"<,./?>~";
+    StringBuilder passwordBuilder = new StringBuilder();
+    Random random = new Random();
+
+    for (int i = 0; i < passwordLength; i++)
+    {
+        int randomIndex = random.Next(0, allowedChars.Length);
+        passwordBuilder.Append(allowedChars[randomIndex]);
+    }
+
+    return passwordBuilder.ToString();
+}
+
+
+//Fuincion #14
+bool IsLeapYear(int year)
+{
+    if (year % 4 != 0)
+    {
+        return false;
+    }
+    else if (year % 100 == 0 && year % 400 != 0)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
+
+
+//Fuincion #15
+int FactorialLoop(int number)
+{
+    if (number == 0)
+    {
+        return 1;
+    }
+
+    int result = 1;
+    for (int i = number; i > 1; i--)
+    {
+        result *= i;
+    }
+
+    return result;
+}
+
+//Fuincion #16
+string DecimalToBinary(int number)
+{
+    if (number == 0)
+    {
+        return "0";
+    }
+
+    string binaryString = "";
+    while (number > 0)
+    {
+        int remainder = number % 2;
+        binaryString = remainder + binaryString;
+        number /= 2;
+    }
+
+    return binaryString;
+}
+
+//Fuincion #17
+int GCDRecursive(int num1, int num2)
+{
+    if (num2 == 0)
+    {
+        return num1;
+    }
+    else
+    {
+        return GCDRecursive(num2, num1 % num2);
+    }
+}
+
+//Fuincion #18
+int[] FibonacciSequence(int n)
+{
+    if (n <= 1)
+    {
+        return new int[] { 0, 1 };
+    }
+
+    int[] fib = new int[n];
+    fib[0] = 0;
+    fib[1] = 1;
+
+    for (int i = 2; i < n; i++)
+    {
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+
+    return fib;
+}
+
+//Fuincion #19
+bool IsPangram(string str)
+{
+    str = str.ToLower();
+    HashSet<char> chars = new HashSet<char>();
+
+    foreach (char c in str)
+    {
+        if (c >= 'a' && c <= 'z')
+        {
+            chars.Add(c);
+        }
+    }
+
+    return chars.Count == 26;
+}
+
+//Fuincion #20
+void ShuffleArray(int[] array)
+{
+    Random random = new Random();
+
+    for (int i = array.Length - 1; i > 0; i--)
+    {
+        int j = random.Next(0, i + 1);
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+//Fuincion #21
