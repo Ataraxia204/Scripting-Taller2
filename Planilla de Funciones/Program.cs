@@ -297,7 +297,7 @@ int Minimo(int a, int b)
 }
 
 //Fuincion #28
-bool EsPrimo(int numero)
+bool EsPrimo(int numero);
 {
     if (numero <= 1)
         return false;
