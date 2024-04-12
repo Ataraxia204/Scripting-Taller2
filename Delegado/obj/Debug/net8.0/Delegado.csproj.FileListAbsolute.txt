@@ -1,0 +1,15 @@
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\bin\Debug\net8.0\Delegado.exe
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\bin\Debug\net8.0\Delegado.deps.json
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\bin\Debug\net8.0\Delegado.runtimeconfig.json
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\bin\Debug\net8.0\Delegado.dll
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\bin\Debug\net8.0\Delegado.pdb
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.AssemblyInfoInputs.cache
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.AssemblyInfo.cs
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.csproj.CoreCompileInputs.cache
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.sourcelink.json
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.dll
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\refint\Delegado.dll
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.pdb
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\Delegado.genruntimeconfig.cache
+C:\Users\Julián\Desktop\Mariana\scripting\Scripting-Taller2\Delegado\obj\Debug\net8.0\ref\Delegado.dll
