@@ -276,7 +276,7 @@ string ConvertirAMayusculas(string texto)
     return texto.ToUpper();
 }
 
-//Fuincion #26
+//Fuincion #27
 double CalcularPromedio(List<double> numeros)
 {
     if (numeros.Count == 0)
@@ -290,13 +290,13 @@ double CalcularPromedio(List<double> numeros)
     return suma / numeros.Count;
 }
 
-//Fuincion #27
+//Fuincion #28
 int Minimo(int a, int b)
 {
     return a < b ? a : b;
 }
 
-//Fuincion #28
+//Fuincion #29
 bool EsPrimo(int numero);
 {
     if (numero <= 1)
@@ -310,13 +310,13 @@ bool EsPrimo(int numero);
     return true;
 }
 
-//Fuincion #29
+//Fuincion #30
 double CalcularAreaTriangulo(double baseTriangulo, double altura)
 {
     return (baseTriangulo * altura) / 2;
 }
 
-//Fuincion #30
+//Fuincion #31
 
 bool EsPalindromoSinEspacios(string palabra)
 {
