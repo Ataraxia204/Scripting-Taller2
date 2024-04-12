@@ -3,7 +3,6 @@
 delegate void ReproductorEvento(string mensaje);
 
 
-
 class Program {
     static void ManejarInicioCancion(string mensaje) {
         Console.WriteLine($"Mensaje recibido: {mensaje}");
@@ -34,4 +33,5 @@ class ReproductorMusica
             CancionComenzada($"Comenzó a reproducirse: {nombreCancion}");
         }
     }
-}
+}  
+
