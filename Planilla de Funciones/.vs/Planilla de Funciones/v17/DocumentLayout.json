@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juli\u00E1n\\Desktop\\Mariana\\scripting\\Scripting-Taller2\\Planilla de Funciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3BDF26-C782-48E1-A53B-B8DADBA14D64}|Planilla de Funciones.csproj|c:\\users\\juli\u00E1n\\desktop\\mariana\\scripting\\scripting-taller2\\planilla de funciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3BDF26-C782-48E1-A53B-B8DADBA14D64}|Planilla de Funciones.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juli\u00E1n\\Desktop\\Mariana\\scripting\\Scripting-Taller2\\Planilla de Funciones\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Juli\u00E1n\\Desktop\\Mariana\\scripting\\Scripting-Taller2\\Planilla de Funciones\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:56:26.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
