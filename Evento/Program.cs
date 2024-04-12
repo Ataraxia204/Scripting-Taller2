@@ -32,4 +32,5 @@ class Program
     {
         Console.WriteLine($"Event raised: {message}");
     }
-}
+}  
+
